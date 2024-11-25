@@ -10,11 +10,17 @@ It avoids re-installing the same dependencies every time, saving time.
 
 _**run: npm install**_: This runs the command npm install to install all the dependencies listed in your package.json file.
 These are the dependencies required for your project to work (like libraries and frameworks). In our case the dependecies we need to need to install are found in dependencies and dev dependencies scripts, and they are:
+
         "bcryptjs": "^2.4.3",
+        
         "cors": "^2.8.5",
+        
         "express": "^4.19.2",
+        
         "jsonwebtoken": "^9.0.2",
+        
         "mongoose": "^8.5.3"
+        
         "nodemon": "^3.1.4"
 _
 **run: npm test**_: npm test is a command used to run the test suite for a Node.js application. It is part of the npm (Node Package Manager) ecosystem and is typically defined in a project’s package.json file.
